@@ -431,20 +431,20 @@ footer a:hover{
     opacity: 0;
 }
 
-.light-box, .light-box-m{
+.light-box{
     margin-bottom: 15px;
 }
 
 
 .light-box{
-    height : 10vh;
+    height : 100px;
     overflow: hidden;
 }
 
-.light-box-m{
-    height: 15vh;
-    overflow: hidden;
+.light-box img{
+
 }
+
 
 .img-font{
     background-color: #10b4fb;
