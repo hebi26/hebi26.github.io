@@ -31,13 +31,10 @@ $('.link').click(function(){
 
 //------------PARALLAX BODY--------------------
 
-    if((screen).width > 992) {
+    // if((screen).width > 992) {
 
-        $('.parallax-box').parallaxie({
-            "speed": 1.05,
-            "offset": -50
-        });
-    }
+        // $('.parallax-box').parallaxie();
+    // }
 
     //------------scroll-----------------------
 
