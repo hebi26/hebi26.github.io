@@ -197,7 +197,7 @@ $('.link').click(function(){
                     nbbar = 6;
                     break;
                 case 'skill12':
-                    nbbar = 6;
+                    nbbar = 8;
                     break;
                 case 'skill14':
                     nbbar = 5;
