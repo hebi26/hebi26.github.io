@@ -42,7 +42,13 @@ $('.link').click(function(){
         scrollOffset : 63
     });
 
+//=======IMG=============
 
+    $('.mini-img-box img').click(function(e) {
+        e.preventDefault();
+        var media = $(this).attr('src');
+        $('.main-img').attr('src', media);
+    });
     // ==============VISUALIZER AUDIO=================
 
     // Establish all variables that your Analyser will use
